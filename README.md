@@ -1,6 +1,6 @@
 # tic-tac-toe-py
 Low level tic tac toe
 
-To use please install numpy
+To improve, a game tree needs to be implemented
 
-pip install -u numpy
+Presently the com logic scans if there are two tokens of the same type in a row, col, or diagonal, and fills it to win or to block player
