@@ -1,5 +1,4 @@
 import random
-import numpy as np
 
 ##HELPS WITH COMLOGIC##
 coordBoard = [[(1,3),(2,3),(3,3)],[(1,2),(2,2),(3,2)],[(1,1),(2,1),(3,1)]]
@@ -265,7 +264,6 @@ def scanGame(board):
     return 1
 
 ##ROTATES GAMEBOARD - HELPS ME CODE##
-##USING NUMPY TO ROTATE##
 def flipBoard(board):
     retList = list(map(list, zip(*board)))
     return retList
